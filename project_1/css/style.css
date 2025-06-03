@@ -1,0 +1,61 @@
+#about {
+    background-color: rgba(50, 48, 48, 0.076);
+  }
+
+#home{
+    &&:hover{
+        color:  rgb(176, 133, 76);
+        transition: all 0.3s;
+    }
+}
+#home1{
+        color:  rgb(176, 133, 76);
+}
+
+#button1{
+    background-color: rgb(136, 102, 58);
+    border-color: rgb(136, 102, 58);
+    &&:hover{
+        background-color:rgb(160, 123, 74);
+        transition: all 0.3s;
+    }
+}
+
+#zoom{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#zoom_img{
+    &&:hover{
+        transform: scale(1.02);
+        transition: all 0.3s;
+    }
+}
+
+#icons{
+    &&:hover{
+        background-color: white;
+        color:  rgb(136, 102, 58);
+        transition: all 0.2s;
+    }
+}
+
+#linkk{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    &&:hover{
+        color:  rgb(136, 102, 58);
+        transition: all 0.2s;
+    }
+}
+
+#scalee{
+    &&:hover{
+        color:  rgb(136, 102, 58);
+        transition: all 0.2s;
+        
+    }
+}
+
